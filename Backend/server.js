@@ -7,8 +7,8 @@ const crypto = require("crypto");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const frontendPath = path.join(__dirname, "../frontend");
-const dataPath = path.join(__dirname, "../data");
+const frontendPath = path.join(__dirname, "../Frontend");
+const dataPath = path.join(__dirname, "../Data");
 
 const studentsFile = path.join(dataPath, "students.json");
 const companiesFile = path.join(dataPath, "companies.json");
