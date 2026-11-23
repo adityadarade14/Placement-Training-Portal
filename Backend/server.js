@@ -5,7 +5,7 @@ const fs = require("fs");
 const crypto = require("crypto");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const frontendPath = path.join(__dirname, "../frontend");
 const dataPath = path.join(__dirname, "../data");
