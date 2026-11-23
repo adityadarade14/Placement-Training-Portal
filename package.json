@@ -2,9 +2,9 @@
   "name": "placement-training-portal",
   "version": "1.0.0",
   "description": "Student Placement and Training Portal",
-  "main": "Backend/server.js",
+  "main": "backend/server.js",
   "scripts": {
-    "start": "node Backend/server.js"
+    "start": "node backend/server.js"
   },
   "dependencies": {
     "express": "^5.1.0"
