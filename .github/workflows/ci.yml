@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Check Backend Syntax
-        run: node --check backend/server.js
+        run: node --check Backend/server.js
 
       - name: Check Frontend Syntax
-        run: node --check frontend/script.js
+        run: node --check Frontend/script.js
