@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard | CampusConnect</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <!-- Top information bar -->
+    <div class="top-bar">
+        Placement updates | Explore opportunities and apply for jobs
+    </div>
+
+    <!-- Navigation bar -->
+    <header class="dashboard-header">
+        <h2>CampusConnect</h2>
+
+        <nav>
+            <a href="#companies">Companies</a>
+            <a href="#myApplications">My Applications</a>
+            <a href="#profile">My Profile</a>
+        </nav>
+
+        <button class="btn logout-btn" onclick="logout()">Logout</button>
+    </header>
+
+    <main class="dashboard">
+
+        <!-- Welcome section -->
+        <section class="welcome" id="profile">
+            <div>
+                <h2>Welcome, <span id="studentName">Student</span></h2>
+                <p id="studentInfo">Student Profile</p>
+            </div>
+            <div class="profile-label">Student Dashboard</div>
+        </section>
+
+        <!-- Quick information -->
+        <section class="stats">
+            <div class="stat-box">
+                <h2 id="companyCount">10</h2>
+                <p>Available Companies</p>
+            </div>
+
+            <div class="stat-box">
+                <h2 id="applicationCount">0</h2>
+                <p>My Applications</p>
+            </div>
+
+            <div class="stat-box">
+                <h2>2026-27</h2>
+                <p>Placement Session</p>
+            </div>
+        </section>
+
+        <!-- Companies section -->
+        <section id="companies" class="company-section">
+
+            <h2>Placement Opportunities</h2>
+            <p class="section-description">
+                Find companies and apply for suitable job opportunities.
+            </p>
+
+            <div class="filters">
+                <input type="text" id="searchCompany" placeholder="Search company or job role...">
+
+                <select id="locationFilter">
+                    <option value="">All Locations</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Chennai">Chennai</option>
+                </select>
+            </div>
+
+            <div id="companyList" class="company-list">
+                Loading companies...
+            </div>
+
+        </section>
+
+        <!-- Applications section -->
+        <section id="myApplications" class="applications-section">
+            <h2>My Applications</h2>
+            <p class="section-description">
+                Check the companies where you have applied.
+            </p>
+
+            <div id="applicationList">
+                Loading applications...
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>CampusConnect - Placement and Training Portal</p>
+        <p>© 2026 All Rights Reserved</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>

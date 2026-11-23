@@ -1,0 +1,422 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+
+header {
+    background: #243b55;
+    color: white;
+    padding: 16px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+header h2 {
+    font-size: 23px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    background: #2864a8;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #194b82;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Home page */
+
+.home-content {
+    background: #e9eef5;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home-content h1 {
+    font-size: 36px;
+    color: #243b55;
+    margin-bottom: 15px;
+}
+
+.home-content p {
+    margin-bottom: 25px;
+}
+
+.content-section {
+    padding: 50px 7%;
+    text-align: center;
+}
+
+.content-section h2 {
+    margin-bottom: 20px;
+    color: #243b55;
+}
+
+.content-section > p {
+    max-width: 750px;
+    margin: auto;
+}
+
+.simple-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+/* Forms */
+
+.form-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.form-box {
+    background: white;
+    width: 100%;
+    max-width: 430px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-box h2 {
+    text-align: center;
+    color: #243b55;
+    margin-bottom: 20px;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.form-box input,
+.form-box select {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.form-box button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-box p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-box a {
+    color: #2864a8;
+}
+
+#message,
+#loginMessage {
+    overflow-wrap: anywhere;
+}
+
+/* Dashboard top sections */
+
+.top-bar {
+    background: #e7edf4;
+    color: #243b55;
+    text-align: center;
+    padding: 7px 10px;
+    font-size: 13px;
+}
+
+.dashboard-header {
+    background: #243b55;
+}
+
+.logout-btn {
+    background: #ffffff;
+    color: #243b55;
+}
+
+.logout-btn:hover {
+    background: #e7edf4;
+}
+
+/* Dashboard */
+
+.dashboard {
+    max-width: 1150px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+.welcome {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 22px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.welcome h2 {
+    color: #243b55;
+}
+
+.profile-label {
+    background: #e7edf4;
+    color: #243b55;
+    padding: 7px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+/* Statistics */
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-bottom: 40px;
+}
+
+.stat-box {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.stat-box h2 {
+    color: #2864a8;
+    font-size: 28px;
+}
+
+.stat-box p {
+    color: #666;
+}
+
+/* Companies */
+
+.company-section,
+.applications-section {
+    margin-bottom: 45px;
+}
+
+.dashboard section > h2 {
+    color: #243b55;
+    margin-bottom: 8px;
+}
+
+.section-description {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 22px;
+}
+
+.filters input,
+.filters select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: white;
+    font-size: 14px;
+}
+
+.filters input {
+    flex: 1;
+}
+
+.company-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.company-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 22px;
+    border-radius: 5px;
+}
+
+.company-card h3 {
+    color: #243b55;
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+
+.company-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.company-card .job-role {
+    font-weight: bold;
+    color: #2864a8;
+    margin-bottom: 10px;
+}
+
+.company-card .btn {
+    margin-top: 15px;
+    margin-right: 7px;
+}
+
+.company-details {
+    background: #f1f4f8;
+    padding: 14px;
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.company-details h4 {
+    color: #243b55;
+    margin: 10px 0 5px;
+}
+
+.round-list {
+    padding-left: 22px;
+    margin-top: 5px;
+}
+
+.round-list li {
+    margin: 4px 0;
+}
+
+/* Applications */
+
+.application-item {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 18px;
+    margin: 12px 0;
+    border-radius: 4px;
+}
+
+.application-item h3 {
+    color: #243b55;
+}
+
+.status-label {
+    display: inline-block;
+    background: #e6f2e8;
+    color: #28753b;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+/* Footer */
+
+footer {
+    background: #243b55;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .simple-cards,
+    .company-list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .home-content h1 {
+        font-size: 28px;
+    }
+
+    .welcome {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

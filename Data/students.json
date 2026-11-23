@@ -1,0 +1,11 @@
+[
+  {
+    "id": "addfeab2-e16f-4554-b9f2-a01df37c1fd1",
+    "name": "Aditya",
+    "email": "daradeaditya@gmail.com",
+    "passwordHash": "2e0631793a6978f65ae1fea077eb2aa7b9ec0080b7b6fa2be483173a09acc879d1bae2d254a2fd19d448e928a52b05bc561ee5c758a121b193a3f7195099f66c",
+    "salt": "cc8eadc804b35a29986aa4e307db019c",
+    "branch": "IT",
+    "year": "3rd Year"
+  }
+]

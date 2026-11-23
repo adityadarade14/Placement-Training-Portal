@@ -1,0 +1,57 @@
+[
+  {
+    "id": "a7062b71-b668-45a9-9b97-a0e60c3a798d",
+    "studentId": "addfeab2-e16f-4554-b9f2-a01df37c1fd1",
+    "studentName": "Aditya",
+    "studentEmail": "daradeaditya@gmail.com",
+    "companyId": 1,
+    "companyName": "TCS",
+    "role": "Software Developer",
+    "appliedAt": "2026-11-23T08:27:15.007Z",
+    "status": "Applied"
+  },
+  {
+    "id": "6b2b974f-19e8-48e4-b6ae-efe3e1a9a768",
+    "studentId": "addfeab2-e16f-4554-b9f2-a01df37c1fd1",
+    "studentName": "Aditya",
+    "studentEmail": "daradeaditya@gmail.com",
+    "companyId": 5,
+    "companyName": "Capgemini",
+    "role": "Software Engineer",
+    "appliedAt": "2026-11-23T08:27:27.131Z",
+    "status": "Applied"
+  },
+  {
+    "id": "5193083c-8bde-4638-8bb6-d1270835e52e",
+    "studentId": "addfeab2-e16f-4554-b9f2-a01df37c1fd1",
+    "studentName": "Aditya",
+    "studentEmail": "daradeaditya@gmail.com",
+    "companyId": 4,
+    "companyName": "Accenture",
+    "role": "Associate Software Engineer",
+    "appliedAt": "2026-11-23T08:27:30.559Z",
+    "status": "Applied"
+  },
+  {
+    "id": "2198750f-c032-4381-86e3-c231cca6c196",
+    "studentId": "addfeab2-e16f-4554-b9f2-a01df37c1fd1",
+    "studentName": "Aditya",
+    "studentEmail": "daradeaditya@gmail.com",
+    "companyId": 2,
+    "companyName": "Infosys",
+    "role": "System Engineer",
+    "appliedAt": "2026-11-23T08:27:32.385Z",
+    "status": "Applied"
+  },
+  {
+    "id": "76cd99fb-e1d5-491e-be17-a40aa7ece3b1",
+    "studentId": "addfeab2-e16f-4554-b9f2-a01df37c1fd1",
+    "studentName": "Aditya",
+    "studentEmail": "daradeaditya@gmail.com",
+    "companyId": 3,
+    "companyName": "Wipro",
+    "role": "Project Engineer",
+    "appliedAt": "2026-11-23T08:36:23.814Z",
+    "status": "Applied"
+  }
+]

@@ -1,0 +1,172 @@
+[
+    {
+        "id": 1,
+        "name": "TCS",
+        "role": "Software Developer",
+        "location": "Pune",
+        "package": "3.5 - 7 LPA",
+        "eligibility": "BE / BTech, All Branches",
+        "deadline": "30 December 2026",
+        "description": "Software development, testing and enterprise applications.",
+        "skills": "Java, C++, Problem Solving",
+        "rounds": [
+            "Online Aptitude and Reasoning Test",
+            "Technical Assessment",
+            "Technical Interview",
+            "HR Interview"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Infosys",
+        "role": "System Engineer",
+        "location": "Pune",
+        "package": "3.6 LPA",
+        "eligibility": "BE / BTech, All Branches",
+        "deadline": "15 December 2026",
+        "description": "Develop and maintain software systems.",
+        "skills": "Programming, Communication, SQL",
+        "rounds": [
+            "Online Assessment",
+            "Technical Interview",
+            "Managerial Interview",
+            "HR Interview"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Wipro",
+        "role": "Project Engineer",
+        "location": "Mumbai",
+        "package": "3.5 LPA",
+        "eligibility": "BE / BTech, All Branches",
+        "deadline": "20 December 2026",
+        "description": "Software projects, coding, debugging and testing.",
+        "skills": "Java, Python, Communication",
+        "rounds": [
+            "Online Aptitude Test",
+            "Coding Test",
+            "Technical Interview",
+            "HR Interview"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Accenture",
+        "role": "Associate Software Engineer",
+        "location": "Pune",
+        "package": "4.5 LPA",
+        "eligibility": "BE / BTech, All Branches",
+        "deadline": "10 January 2027",
+        "description": "Develop technology solutions for business requirements.",
+        "skills": "Java, Python, Problem Solving",
+        "rounds": [
+            "Cognitive Assessment",
+            "Technical Assessment",
+            "Communication Assessment",
+            "Interview"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Capgemini",
+        "role": "Software Engineer",
+        "location": "Mumbai",
+        "package": "4 LPA",
+        "eligibility": "BE / BTech, All Branches",
+        "deadline": "25 December 2026",
+        "description": "Application development and software engineering.",
+        "skills": "C++, Java, Web Development",
+        "rounds": [
+            "Online Assessment",
+            "Technical Test",
+            "Technical Interview",
+            "HR Interview"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Cognizant",
+        "role": "Programmer Analyst",
+        "location": "Bangalore",
+        "package": "4 LPA",
+        "eligibility": "BE / BTech, All Branches",
+        "deadline": "5 January 2027",
+        "description": "Develop and maintain business applications.",
+        "skills": "Java, SQL, Data Structures",
+        "rounds": [
+            "Aptitude Assessment",
+            "Technical Assessment",
+            "Technical Interview",
+            "HR Discussion"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "IBM",
+        "role": "Associate Developer",
+        "location": "Bangalore",
+        "package": "5 LPA",
+        "eligibility": "BE / BTech, IT and CS preferred",
+        "deadline": "12 January 2027",
+        "description": "Work on software products and technology solutions.",
+        "skills": "Java, Python, Cloud Basics",
+        "rounds": [
+            "Coding Assessment",
+            "Technical Interview",
+            "Managerial Interview",
+            "HR Interview"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Tech Mahindra",
+        "role": "Software Engineer",
+        "location": "Hyderabad",
+        "package": "3.5 LPA",
+        "eligibility": "BE / BTech, All Branches",
+        "deadline": "18 January 2027",
+        "description": "Software development and IT services projects.",
+        "skills": "Java, C++, Communication",
+        "rounds": [
+            "Aptitude Test",
+            "English Communication Test",
+            "Technical Interview",
+            "HR Interview"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "HCLTech",
+        "role": "Graduate Engineer Trainee",
+        "location": "Chennai",
+        "package": "4.25 LPA",
+        "eligibility": "BE / BTech, All Branches",
+        "deadline": "22 January 2027",
+        "description": "Work on software engineering and IT projects.",
+        "skills": "C, Java, Problem Solving",
+        "rounds": [
+            "Online Assessment",
+            "Coding Round",
+            "Technical Interview",
+            "HR Interview"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Deloitte",
+        "role": "Analyst",
+        "location": "Hyderabad",
+        "package": "5.5 LPA",
+        "eligibility": "BE / BTech, IT and CS preferred",
+        "deadline": "30 January 2027",
+        "description": "Technology consulting and software solutions.",
+        "skills": "Programming, Analytical Skills, Communication",
+        "rounds": [
+            "Online Assessment",
+            "Versant or Communication Round",
+            "Technical Interview",
+            "Partner or HR Interview"
+        ]
+    }
+]
