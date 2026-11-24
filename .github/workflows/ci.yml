@@ -3,9 +3,9 @@ name: Placement Portal CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, devops-upgrade]
   pull_request:
-    branches: [main]
+    branches: [main, devops-upgrade]
 
 jobs:
   build:
@@ -19,9 +19,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
+
+      - name: Run Jest Tests
+        run: npm test
 
       - name: Check Backend Syntax
         run: node --check Backend/server.js

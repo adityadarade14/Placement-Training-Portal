@@ -38,7 +38,7 @@ if (registerForm) {
                 registerForm.reset();
             }
 
-        } catch (error) {
+        } catch {
             message.textContent = "Server connection failed.";
             message.style.color = "red";
         }
@@ -84,7 +84,7 @@ if (loginForm) {
                 message.style.color = "red";
             }
 
-        } catch (error) {
+        } catch {
             message.textContent = "Server connection failed.";
             message.style.color = "red";
         }
@@ -148,7 +148,7 @@ async function loadCompanies() {
 
         displayCompanies(allCompanies);
 
-    } catch (error) {
+    } catch {
         companyList.textContent = "Unable to load companies.";
     }
 }
@@ -325,7 +325,7 @@ async function applyForJob(companyId, button) {
             loadApplications();
         }
 
-    } catch (error) {
+    } catch {
         alert("Unable to submit application.");
     } finally {
         button.disabled = false;
@@ -386,7 +386,7 @@ async function loadApplications() {
             applicationList.appendChild(item);
         });
 
-    } catch (error) {
+    } catch {
         applicationList.textContent =
             "Unable to load applications.";
     }
@@ -401,3 +401,5 @@ function logout() {
     sessionStorage.removeItem("loggedInStudent");
     window.location.href = "/login.html";
 }
+
+window.logout = logout;

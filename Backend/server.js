@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const frontendPath = path.join(__dirname, "../Frontend");
-const dataPath = path.join(__dirname, "../Data");
+const dataPath = process.env.DATA_DIR || path.join(__dirname, "../Data");
 
 const studentsFile = path.join(dataPath, "students.json");
 const companiesFile = path.join(dataPath, "companies.json");
@@ -301,6 +301,10 @@ app.get("/api/applications/:studentId", (req, res) => {
 });
 
 
-app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
-});
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`Server running at http://localhost:${PORT}`);
+    });
+}
+
+module.exports = app;
