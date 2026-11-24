@@ -1,0 +1,7 @@
+services:
+  placement-portal:
+    build: .
+    container_name: placement-portal
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
